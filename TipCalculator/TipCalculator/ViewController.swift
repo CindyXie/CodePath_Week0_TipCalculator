@@ -54,6 +54,7 @@ class ViewController: UIViewController {
         //print("view will appear")
         tipControl.selectedSegmentIndex = tipPercentage.index
         updateTips()
+        billField.becomeFirstResponder()
         
     }
     
