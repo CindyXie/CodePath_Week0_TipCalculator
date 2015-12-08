@@ -34,10 +34,15 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 Challenge 1: How to avoid duplication of code
+
 Challenge 2: How to avoid putting everything into View Controller
+
 Solution 1&2: By creating a new class, storage and retrieval actions are encapsulated inside a single model class, which eliminated repeated code, also improved the readability.
+
 Challenge 3: How to update tip percentage in main view while default tip percentage changed in setting view.
+
 Solution 3: Updating the UI everytime when navigating into the settings view and back by using "lifecyle" methods.
+
 
 ## License
 
